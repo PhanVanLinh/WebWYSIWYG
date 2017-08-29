@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+
+</head>
+<body>
+
+<textarea id="MyID">
+</textarea>
+
+<script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+<script>
+
+var simplemde = new SimpleMDE({ element: document.getElementById("MyID"),
+	toolbar: ["bold", "italic", "|", "link", "quote", "image", "code", "","unordered-list","ordered-list","", "side-by-side","fullscreen","preview","guide"],
+ });
+</script>
+
+</body>
+</html>
+
+<!-- source https://github.com/sparksuite/simplemde-markdown-editor -->
